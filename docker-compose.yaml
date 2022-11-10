@@ -1,0 +1,16 @@
+version: '2.6' 
+
+services:
+  flask:
+    build: ./app
+    container_name: micro
+    environment:
+      - FLASK_ENV=development
+      - PYTHONUNBUFFERED=True 
+  
+    restart: on-failure
+    volumes:
+      - ./app
+    ports:
+      - "5000:5000"
+    command: python app.py
