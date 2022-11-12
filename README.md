@@ -29,3 +29,6 @@
 Язык программирования: Python 3.7+ <br/>
 Код должен соответствовать PEP <br/>
 Использование Docker, сервис должен запускаться с помощью docker-compose up. <br/>
+
+# Как запустить готовый проект
+1. Клонировать проект по ссылке <https://github.com/ShumilovAlexandr/Microservice_test>
