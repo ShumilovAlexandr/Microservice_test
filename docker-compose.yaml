@@ -1,16 +1,11 @@
 version: '2.6' 
 
 services:
-  flask:
+  app:
+    # Путь до Dockerfile
     build: ./app
-    container_name: micro
-    environment:
-      - FLASK_ENV=development
-      - PYTHONUNBUFFERED=True 
-  
-    restart: on-failure
-    volumes:
-      - ./app
+    # Имя для создаваемого контейнера
+    container_name: app
+    # Пробрасываемые порты
     ports:
       - "5000:5000"
-    command: python app.py

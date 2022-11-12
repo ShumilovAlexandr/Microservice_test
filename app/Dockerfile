@@ -16,15 +16,8 @@ RUN pip3 install -r requirements.txt --no-cache-dir
 # Устанавливаем порт
 EXPOSE 5000
 
+# Запускаем командрую строку python
 ENTRYPOINT ["python"]
 
+# Запускаем само приложение
 CMD ["app.py"]
-
-
-# Надо придумать как запустить приложение flask, что-то не запускается
-#CMD ["flask", "run", "app.py"]
-
-
-
-
-#CMD ["python", "app/app.py"] #образ и контейнер собираются, но приложение не работает при тестировании
