@@ -8,6 +8,12 @@ from conf import BASE_PATH
 app = Flask(__name__)
 
 
+"""
+Функия возвращает словари с отображением компонентов в указанном в BASE_PATH пути.
+
+Выводит название компонента, его тип, и дату создания в виде словаря для каждого
+из компонентов.
+"""
 @app.route("/api/meta", methods=["GET"])
 def get_data():
     data = []
@@ -31,4 +37,4 @@ def get_data():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
