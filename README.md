@@ -39,5 +39,9 @@
    в) Протестируйте приложение, указан в адресной строке __http://127.0.0.1:5000/api/meta__ и применив запрос __GET__. <br/>
    
 ### Стек технологий
-/docker/image-size/:user/:repo?sort=semver
+![PyPI - Python Version](https://img.shields.io/badge/python-3.7-blue)
+![PyPI - Docker Version](https://img.shields.io/badge/docker-20.10.17-blue)
+![PyPI - flake8 Version](https://img.shields.io/badge/flake8-4.0.1-blue)
+![PyPI - Python-dotenv Version](https://img.shields.io/badge/python--dotenv-0.20.0-blue)
+![PyPI - Python-dotenv Version](https://img.shields.io/badge/flask-2.2.2-blue)
  
