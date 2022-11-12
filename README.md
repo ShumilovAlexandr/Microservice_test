@@ -11,20 +11,20 @@
 
 Пример ответа:
 
-{
-    "data":[
-        {
-            "name": "src",
-            "type": "folder",
-            "time": 1665996554107
-        },
-        {
-            "name": "file.py",
-            "type": "file",
-            "time": 1665996554108
-        },
-    ]
-}
+    {
+       "data":[
+            {
+                "name": "src",
+                "type": "folder",
+                "time": 1665996554107
+            },
+            {
+                "name": "file.py",
+                "type": "file",
+                "time": 1665996554108
+            },
+        ]
+    }
 Корневая директория ставится в config.py
 
 Язык программирования: Python 3.7+
